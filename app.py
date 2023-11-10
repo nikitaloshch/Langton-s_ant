@@ -22,7 +22,11 @@ def ant_path(size):
 
 
 def save_image(image_data, filename):
-    img = Image.fromarray(image_data, 'L')
+    # Создаем изображение с глубиной цвета 1 бит
+    img = Image.new('1', (image_data.shape[1], image_data.shape[0]))
+    # Устанавливаем пиксели
+    img.putdata(image_data.flatten())
+    # Сохраняем изображение
     img.save(filename, format='PNG')
 
 
