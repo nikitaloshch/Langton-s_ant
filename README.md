@@ -19,7 +19,7 @@
 git clone https://github.com/nikitaloshch/Langton-s_ant.git
 ```
 ```
-cd api_final_yatube
+cd Langton-s_ant
 ```
 Cоздай и активируй виртуальное окружение:
 ```
