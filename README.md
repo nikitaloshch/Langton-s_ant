@@ -23,7 +23,7 @@ cd Langton-s_ant
 ```
 Cоздай и активируй виртуальное окружение:
 ```
-python3 -m venv venv
+python -m venv venv
 ```
 
 * Если у вас Linux/macOS
@@ -42,3 +42,5 @@ python3 -m venv venv
 ```
 pip install -r requirements.txt
 ```
+
+Можно запускать app.py
